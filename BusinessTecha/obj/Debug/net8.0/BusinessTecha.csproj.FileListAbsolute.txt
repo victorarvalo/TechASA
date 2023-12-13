@@ -1,0 +1,16 @@
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\bin\Debug\net8.0\BusinessTecha.deps.json
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\bin\Debug\net8.0\BusinessTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\bin\Debug\net8.0\BusinessTecha.pdb
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.AssemblyInfoInputs.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.AssemblyInfo.cs
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.csproj.CoreCompileInputs.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.sourcelink.json
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\refint\BusinessTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.pdb
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\ref\BusinessTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.csproj.AssemblyReference.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\bin\Debug\net8.0\DataTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\bin\Debug\net8.0\DataTecha.pdb
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\BusinessTecha\obj\Debug\net8.0\BusinessTecha.csproj.CopyComplete
