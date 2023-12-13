@@ -1,0 +1,35 @@
+<div class="card">
+    <div class="card-body" >
+      <h3 class="titulo text-center">PRODUCTS</h3>
+      <table class="table table-striped" #productTable>
+        <thead>
+            <tr>
+                <th>productId</th>
+                <th>productName</th>
+                <th>supplierId</th>
+                <th>categoryId</th>
+                <th>quantityPerUnit</th>
+                <th>unitPrice</th>
+                <th>unitsInStock</th>
+                <th>unitsOnOrder</th>
+                <th>reorderLevel</th>
+                <th>discontinued</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listProducts">
+                <td>{{data.productId}}</td>
+                <td>{{data.productName}}</td>
+                <td>{{data.supplierId}}</td>
+                <td>{{data.categoryId}}</td>
+                <td>{{data.quantityPerUnit}}</td>
+                <td>{{data.unitPrice}}</td>
+                <td>{{data.unitsInStock}}</td>
+                <td>{{data.unitsOnOrder}}</td>
+                <td>{{data.reorderLevel}}</td>
+                <td>{{data.discontinued}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>

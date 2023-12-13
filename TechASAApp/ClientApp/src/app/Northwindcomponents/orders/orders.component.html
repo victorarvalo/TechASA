@@ -1,0 +1,44 @@
+<p>orders works!</p>
+<div class="card">
+    <div class="card-body" >
+      <h3 class="titulo text-center">ORDERS</h3>
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>OrderId</th>
+                <th>customerId</th>
+                <th>employeeId</th>
+                <th>orderDate</th>
+                <th>requiredDate</th>
+                <th>shippedDate</th>
+                <th>shipVia</th>
+                <th>freight</th>
+                <th>shipName</th>
+                <th>shipAddress</th>
+                <th>shipCity</th>
+                <th> shipRegion</th>
+                <th>shipPostalCode</th>
+                <th>shipCountry</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listOrders">
+                <td>{{data.orderId}}</td>
+                <td>{{data.customerId}}</td>
+                <td>{{data.employeeId}}</td>
+                <td>{{data.orderDate}}</td>
+                <td>{{data.requiredDate}}</td>
+                <td>{{data.shippedDate}}</td>
+                <td>{{data.shipVia}}</td>
+                <td>{{data.freight}}</td>
+                <td>{{data.shipName}}</td>
+                <td>{{data.shipAddress}}</td>
+                <td>{{data.shipCity}}</td>
+                <td>{{data.shipRegion}}</td>
+                <td>{{data.shipPostalCode}}</td>
+                <td>{{data.shipCountry}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
