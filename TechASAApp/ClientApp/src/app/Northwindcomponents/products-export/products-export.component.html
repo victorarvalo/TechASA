@@ -1,0 +1,80 @@
+<div class="card">
+    <div class="card-body" >
+      <h3 class="titulo text-center">PRODUCTS</h3>
+      <div class="row text-center"><p><b>Choose the columns to export</b></p></div>
+      <table class="table table-striped-columns">   
+        <tbody>
+            <tr>
+                <td>productId</td><td><input type="checkbox" #productIdch></td>
+                <td>productName</td><td><input type="checkbox" #productNamech></td>
+            </tr>
+            <tr>
+                <td>supplierId</td><td><input type="checkbox" #supplierIdch></td>
+                <td>categoryId</td><td><input type="checkbox" #categoryIdch></td>
+            </tr>
+            <tr>
+                <td>quantityPerUnit</td><td><input type="checkbox" #quantityPerUnitch></td>
+                <td>unitPrice</td><td><input type="checkbox" #unitPricech></td>
+            </tr>
+            <tr>
+                <td>unitsInStock</td><td><input type="checkbox" #unitsInStockch></td>
+                <td>unitsOnOrder</td><td><input type="checkbox" #unitsOnOrderch></td>
+            </tr>
+            <tr>
+                <td>reorderLevel</td><td><input type="checkbox" #reorderLevelch></td>
+                <td>discontinued</td><td><input type="checkbox" #discontinuedch></td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="row">
+        <div class="col-5 text-end">File Name to Export: (without .xlsx)</div>
+        <div class="col-3 text-start">
+            <input type="text" placeholder="default: product_data" #fileName>
+        </div>
+        <div class="col-4 ">
+            <button class="btn btn-success btn-sm" (click)="exportElmToExcel()">Export Excel</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 text-end">File Name to Export: (without .csv)</div>
+        <div class="col-3 text-start">
+            <input type="text" placeholder="default: product_data" #fileNamecsv>
+        </div>
+        <div class="col-4 ">
+            <button class="btn btn-success btn-sm" (click)="exportElmToCSV()">Export CSV</button>
+        </div>
+      </div>
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>productId</th>
+                <th>productName</th>
+                <th>supplierId</th>
+                <th>categoryId</th>
+                <th>quantityPerUnit</th>
+                <th>unitPrice</th>
+                <th>unitsInStock</th>
+                <th>unitsOnOrder</th>
+                <th>reorderLevel</th>
+                <th>discontinued</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listProducts">
+                <td>{{data.productId}}</td>
+                <td>{{data.productName}}</td>
+                <td>{{data.supplierId}}</td>
+                <td>{{data.categoryId}}</td>
+                <td>{{data.quantityPerUnit}}</td>
+                <td>{{data.unitPrice}}</td>
+                <td>{{data.unitsInStock}}</td>
+                <td>{{data.unitsOnOrder}}</td>
+                <td>{{data.reorderLevel}}</td>
+                <td>{{data.discontinued}}</td>
+            </tr>
+        </tbody>
+      </table>
+      <input type="text" value="{{ userName | async }}" style="display: none;" #theuser>
+    </div>
+</div>
+
