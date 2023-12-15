@@ -1,0 +1,97 @@
+<div class="card">
+    <div class="card-body" >
+      <h3 class="titulo text-center">ORDERS</h3>
+      <div class="row text-center"><p><b>Choose the columns to export</b></p></div>
+      <table class="table table-striped-columns">   
+        <tbody>
+            <tr>
+                <td>OrderId</td><td><input type="checkbox" #OrderIdch></td>
+                <td>customerId</td><td><input type="checkbox" #customerIdch></td>
+            </tr>
+            <tr>
+                <td>employeeId</td><td><input type="checkbox" #employeeIdch></td>
+                <td>orderDate</td><td><input type="checkbox" #orderDatech></td>
+            </tr>
+            <tr>
+                <td>requiredDate</td><td><input type="checkbox" #requiredDatech></td>
+                <td>shippedDate</td><td><input type="checkbox" #shippedDatech></td>
+            </tr>
+            <tr>
+                <td>shipVia</td><td><input type="checkbox" #shipViach></td>
+                <td>freight</td><td><input type="checkbox" #freightch></td>
+            </tr>
+            <tr>
+                <td>shipName</td><td><input type="checkbox" #shipNamech></td>
+                <td>shipAddress</td><td><input type="checkbox" #shipAddressch></td>
+            </tr>
+            <tr>
+                <td>shipCity</td><td><input type="checkbox" #shipCitych></td>
+                <td>shipRegion</td><td><input type="checkbox" #shipRegionch></td>
+            </tr>
+            <tr>
+                <td>shipPostalCode</td><td><input type="checkbox" #shipPostalCodech></td>
+                <td>shipCountry</td><td><input type="checkbox" #shipCountrych></td>
+            </tr>
+        </tbody>
+      </table>
+      <div class="row">
+        <div class="col-5 text-end">File Name to Export: (without .xlsx)</div>
+        <div class="col-3 text-start">
+            <input type="text" placeholder="default: order_data" #fileName>
+        </div>
+        <div class="col-4 ">
+            <button class="btn btn-success btn-sm" (click)="exportElmToExcel()">Export Excel</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 text-end">File Name to Export: (without .csv)</div>
+        <div class="col-3 text-start">
+            <input type="text" placeholder="default: product_data" #fileNamecsv>
+        </div>
+        <div class="col-4 ">
+            <button class="btn btn-success btn-sm" (click)="exportElmToCSV()">Export CSV</button>
+        </div>
+      </div>
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>OrderId</th>
+                <th>customerId</th>
+                <th>employeeId</th>
+                <th>orderDate</th>
+                <th>requiredDate</th>
+                <th>shippedDate</th>
+                <th>shipVia</th>
+                <th>freight</th>
+                <th>shipName</th>
+                <th>shipAddress</th>
+                <th>shipCity</th>
+                <th> shipRegion</th>
+                <th>shipPostalCode</th>
+                <th>shipCountry</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listOrders">
+                <td>{{data.orderId}}</td>
+                <td>{{data.customerId}}</td>
+                <td>{{data.employeeId}}</td>
+                <td>{{data.orderDate}}</td>
+                <td>{{data.requiredDate}}</td>
+                <td>{{data.shippedDate}}</td>
+                <td>{{data.shipVia}}</td>
+                <td>{{data.freight}}</td>
+                <td>{{data.shipName}}</td>
+                <td>{{data.shipAddress}}</td>
+                <td>{{data.shipCity}}</td>
+                <td>{{data.shipRegion}}</td>
+                <td>{{data.shipPostalCode}}</td>
+                <td>{{data.shipCountry}}</td>
+            </tr>
+        </tbody>
+      </table>
+      
+    </div>
+</div>
+
+
