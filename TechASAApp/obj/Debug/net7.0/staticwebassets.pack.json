@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\CXVXC\\Documents\\Proyecto TechA SA\\TechASA\\TechASAApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TechASAApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TechASAApp.props",
+      "PackagePath": "build\\TechASAApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TechASAApp.props",
+      "PackagePath": "buildMultiTargeting\\TechASAApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TechASAApp.props",
+      "PackagePath": "buildTransitive\\TechASAApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
