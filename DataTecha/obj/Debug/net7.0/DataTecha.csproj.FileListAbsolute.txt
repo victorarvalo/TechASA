@@ -1,0 +1,15 @@
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\bin\Debug\net7.0\DataTecha.deps.json
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\bin\Debug\net7.0\DataTecha.runtimeconfig.json
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\bin\Debug\net7.0\DataTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\bin\Debug\net7.0\DataTecha.pdb
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.csproj.AssemblyReference.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.AssemblyInfoInputs.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.AssemblyInfo.cs
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.csproj.CoreCompileInputs.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.sourcelink.json
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\refint\DataTecha.dll
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.pdb
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\DataTecha.genruntimeconfig.cache
+C:\Users\CXVXC\Documents\Proyecto TechA SA\TechASA\DataTecha\obj\Debug\net7.0\ref\DataTecha.dll
