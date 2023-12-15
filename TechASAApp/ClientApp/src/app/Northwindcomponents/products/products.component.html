@@ -1,0 +1,36 @@
+<p>products works!</p>
+<div class="card">
+    <div class="card-body" >
+      <h3 class="titulo text-center">PRODUCTS</h3>
+      <table class="table">
+        <thead>
+            <tr>
+                <td>productId</td>
+                <td>productName</td>
+                <td>supplierId</td>
+                <td>categoryId</td>
+                <td>quantityPerUnit</td>
+                <td>unitPrice</td>
+                <td>unitsInStock</td>
+                <td>unitsOnOrder</td>
+                <td>reorderLevel</td>
+                <td>discontinued</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of listProducts">
+                <td>{{data.productId}}</td>
+                <td>{{data.productName}}</td>
+                <td>{{data.supplierId}}</td>
+                <td>{{data.categoryId}}</td>
+                <td>{{data.quantityPerUnit}}</td>
+                <td>{{data.unitPrice}}</td>
+                <td>{{data.unitsInStock}}</td>
+                <td>{{data.unitsOnOrder}}</td>
+                <td>{{data.reorderLevel}}</td>
+                <td>{{data.discontinued}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
