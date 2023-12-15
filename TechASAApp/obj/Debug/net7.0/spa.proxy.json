@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44486",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\CXVXC\\Documents\\Proyecto TechA SA\\TechASA\\TechASAApp\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
